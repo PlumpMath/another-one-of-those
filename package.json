@@ -1,0 +1,19 @@
+{
+  "name": "solera-interview-test",
+  "version": "0.0.1",
+  "description": "Solera Interview Test",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
